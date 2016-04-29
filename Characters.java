@@ -1,30 +1,29 @@
-/* Code for Assignment ?? 
- * Name:
- * Usercode:
- * ID:
- */
-
-
-import ecs100.*;
-import java.util.*;
-import java.io.*;
-import java.awt.Color;
-
-
 /** <description of class Characters>
- */
-public class Characters{
-
-    /**      */
+  */
+ public class Characters{
+     private String type;
+    private double width;
+    private double height;
+    private int speed;
+    private double welth;
+    private String life;
+    
+    
+ 
+     /**      */
     public Characters(){
         UI.initialise();
     UI.addButton("Quit", UI::quit);
+    public Characters(String typ,double x,double y){
+       
     }
+    private void draw(){
+    }
+    
+     }
+ 
+ 
+ 
 
-
-
-    public static void main(String[] args){
-        Characters obj = new Characters();
-    }    
-
-}
+ 
+ }
